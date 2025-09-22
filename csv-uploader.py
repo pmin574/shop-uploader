@@ -9,7 +9,7 @@ import json
 SHOP_NAME = os.environ.get("SHOPIFY_SHOP", "your-shop-name")
 ACCESS_TOKEN = os.environ.get("SHOPIFY_TOKEN", "your-access-token")
 API_VERSION = "2024-10"
-CSV_PATH = os.environ.get("CSV_PATH", "Product Master Sheet - First Three Series.csv")
+CSV_PATH = os.environ.get("CSV_PATH")
 COST_COLUMN = os.environ.get("COST_COLUMN", "Euros")
 NAMESPACE = os.environ.get("NAMESPACE", "procut")
 OPTION_NAME = os.environ.get("OPTION_NAME", "Code")
